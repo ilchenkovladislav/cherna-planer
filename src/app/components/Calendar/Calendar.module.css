@@ -1,0 +1,22 @@
+.months {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.month {
+    position: relative;
+    display: grid;
+    gap: 5px;
+}
+
+.title {
+    margin: 0;
+    font-size: 14px;
+}
+
+.link {
+    position: absolute;
+    inset: 0;
+}
+

@@ -1,0 +1,21 @@
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: end;
+    font-size: 14px;
+    gap: 4px;
+}
+
+.weeks {
+    display: grid;
+    justify-items: center;
+    font-size: 14px;
+    gap: 4px;
+    color: #bbb;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 16px;
+    gap: 10px;
+}

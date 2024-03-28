@@ -1,16 +1,16 @@
 import { ReactNode } from "react";
-import { Roboto } from "next/font/google";
+import { Ubuntu } from "next/font/google";
 import type { Metadata } from "next";
 import "./globals.css";
 
-const roboto = Roboto({
+const ubuntu = Ubuntu({
 	weight: "400",
 	subsets: ["cyrillic", "latin"],
 	display: "swap",
 });
 
 export const metadata: Metadata = {
-	title: "Чернецкая планер",
+	title: "Nani planer",
 	description: "Помогаем с планами",
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="ru">
-			<body className={roboto.className}>{children}</body>
+			<body className={ubuntu.className}>{children}</body>
 		</html>
 	);
 }
